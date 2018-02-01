@@ -4,6 +4,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "secp256k1-swift",
+    name: "secp256k1_swift",
     pkgConfig: "libsecp256k1"
 )
