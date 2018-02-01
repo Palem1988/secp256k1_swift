@@ -1,0 +1,5 @@
+module secp256k1_swift [system] {
+  header "shim.h"
+  link "secp256k1"
+  export *
+}
