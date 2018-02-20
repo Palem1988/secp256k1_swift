@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "secp256k1",
+    pkgConfig: "libsecp256k1",
     providers: [
         .apt(["libsecp256k1"])
     ],
